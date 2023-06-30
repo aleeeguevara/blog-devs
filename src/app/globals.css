@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.content-home{
+  background-image: url('/dev-img.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
