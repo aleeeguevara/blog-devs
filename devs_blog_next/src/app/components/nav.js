@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import blog from '../../../public/blog.svg';
 function Nav() {
   const [open, setOpen] = useState(false);
   const [toggle, setToggle] = useState(false);
@@ -55,14 +55,14 @@ function Nav() {
             <div className='flex flex-shrink-0 items-center'>
               <Image
                 className='block h-8 w-auto lg:hidden'
-                src='blog.svg'
+                src={blog}
                 alt='Blog'
                 width={150}
                 height={150}
               />
               <Image
                 className='hidden h-8 w-auto lg:block'
-                src='blog.svg'
+                src={blog}
                 alt='Blog'
                 width={250}
                 height={250}

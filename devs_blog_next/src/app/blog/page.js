@@ -9,7 +9,7 @@ async function getServerSideProps() {
 }
 async function Blog() {
   let call = await getServerSideProps();
-  getServerSideProps();
+
   return (
     <div className='px-4 mx-auto flex flex-col justify-between items-center'>
       <div className='w-2/3 px-6'>
@@ -18,6 +18,7 @@ async function Blog() {
             title={item.attributes.title}
             description={item.attributes.description}
             ID={item.id}
+            key={item.id}
           />
         ))}
       </div>

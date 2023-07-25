@@ -8,7 +8,7 @@ function Card(props) {
       <small>{props.description}</small>
       <Link
         className='text-right w-full inline-block text-lg py-6 font-semibold text-indigo-600'
-        href={`/post?ID=${props.ID}`}
+        href={`/post/${props.ID}`}
       >
         Ler Post
       </Link>
