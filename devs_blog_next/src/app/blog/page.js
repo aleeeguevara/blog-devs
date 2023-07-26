@@ -12,7 +12,7 @@ async function Blog() {
 
   return (
     <div className='px-4 mx-auto flex flex-col justify-between items-center'>
-      <div className='w-2/3 px-6'>
+      <div className='w-2/3 p-6'>
         {call.map((item) => (
           <Card
             title={item.attributes.title}

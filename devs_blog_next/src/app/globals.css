@@ -29,4 +29,5 @@ body {
   background-image: url('/dev-img.png');
   background-repeat: no-repeat;
   background-position: bottom;
+  height: 800px;
 }

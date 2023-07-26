@@ -32,7 +32,7 @@ async function PostPage({ params }) {
           </header>
           <section>
             <div
-              className='text-2xl py-4 leading-snug'
+              className='text-2xl py-4 leading-snug px-6'
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             ></div>
           </section>
